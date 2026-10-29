@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategori Pengeluaran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Kategori Pengeluaran</h1>
+        <p>Catat pengeluaran harianmu!</p>
+
+        <input type="text" id="nama" placeholder="Nama mahasiswa">
+        <input type="number" id="uang" placeholder="Jumlah pengeluaran">
+
+        <button onclick="tambahPengeluaran()">Simpan</button>
+
+        <h3>Hasil Kategori</h3>
+        <p id="hasil">Belum ada pengeluaran.</p>
+
+        <h3>Riwayat Pengeluaran</h3>
+        <ul id="riwayat"></ul>
+
+        <h3>Total Pengeluaran</h3>
+        <p id="total">Rp0</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
